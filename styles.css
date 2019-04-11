@@ -1,0 +1,58 @@
+.btn-simon {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 50px;
+    margin: 2%;
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    background-color: #193152;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.title {
+    color: lightgoldenrodyellow;
+    font-size: 50px;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.level-title {
+    font-size: 3rem;
+    font-family: 'Press Start 2P';
+    margin:  5%;
+    color: #FEF2BF;
+}
